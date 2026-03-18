@@ -10,13 +10,13 @@ import type { HeadingTagType } from "@lexical/rich-text";
 import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ButtonGroup } from "@/components/ui/button-group";
-import { ColorPlugin } from "@lexical/plugins/color/color-plugin";
-import { ListPlugin } from "@lexical/plugins/list/list-plugin";
+import { ColorPlugin } from "../plugins/color/color-plugin";
+import { ListPlugin } from "../plugins/list/list-plugin";
 import { useToolbar } from "./use-toolbar";
 import { handleAction, headingMap, headings, updateHeading } from "./utils";
 import { toolbarItems } from "./items";
-import { TablePlugin } from "@lexical/table/table";
-import { CodeBlockPlugin } from "@lexical/plugins/codeblock/code-block";
+import { TablePlugin } from "../table/table";
+import { CodeBlockPlugin } from "../plugins/codeblock/code-block";
 
 export const ToolbarPlugin = () => {
   const [editor] = useLexicalComposerContext();
