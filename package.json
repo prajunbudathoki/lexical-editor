@@ -13,11 +13,13 @@
   },
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.8",
+    "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.1.18",
     "@tanstack/react-devtools": "latest",
     "@tanstack/react-router": "latest",
     "@tanstack/react-router-devtools": "latest",
     "@tanstack/router-plugin": "^1.132.0",
+    "@uiw/react-color": "^2.9.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.545.0",
