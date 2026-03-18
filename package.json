@@ -14,8 +14,11 @@
   "dependencies": {
     "@fontsource-variable/geist": "^5.2.8",
     "@lexical/code": "^0.41.0",
+    "@lexical/list": "^0.41.0",
     "@lexical/react": "^0.41.0",
+    "@lexical/rich-text": "^0.41.0",
     "@lexical/selection": "^0.41.0",
+    "@lexical/table": "^0.41.0",
     "@lexical/utils": "^0.41.0",
     "@radix-ui/react-slot": "^1.2.4",
     "@tailwindcss/vite": "^4.1.18",
