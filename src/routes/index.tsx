@@ -39,9 +39,11 @@ function App() {
       <ToolbarPlugin />
       <div className="relative">
         <ContentEditable
-          aria-placeholder="Enter some text...."
+          aria-placeholder="Start typing something wonderful..."
           placeholder={
-            <div className="absolute top-1 left-2">Enter some text...</div>
+            <div className="absolute top-1 left-2">
+              Start typing something wonderful...
+            </div>
           }
           className="border-2 border-black min-h-[70svh] rounded outline-0 p-1 text-lg"
         />
